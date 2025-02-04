@@ -11,7 +11,7 @@ const Card = ({ heading, paragraph, buttonData ,imgSrc}) => {
         />
 
         <h1 className="text-5xl py-2">{heading}</h1>
-        <p className="text-neutral-700 py-2 lg:text-xl">{paragraph} </p>
+        <p className="text-neutral-700 py-2 px-2 lg:text-xl">{paragraph} </p>
         <button className="bg-sky-600 text-white px-6 py-3 my-10 font-semibold hover:bg-black">
           {buttonData}{" "}
         </button>
