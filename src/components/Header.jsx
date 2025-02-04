@@ -39,7 +39,7 @@ const Header = () => {
         </div>
         <div className="">
           {openToggle && (
-            <ul className="absolute lg:hidden top-18 left-0 flex  flex-col items-center justify-center shadow w-full ">
+            <ul className="absolute lg:hidden top-18 left-0 flex bg-white flex-col items-center justify-center shadow w-full ">
               {navLinks.map((link, index) => (
                 <li
                   className="cursor-pointer text-neutral-500 py-4"
